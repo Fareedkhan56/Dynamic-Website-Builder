@@ -1,0 +1,71 @@
+body {
+    background: #000;
+    color: white;
+    font-family: 'Kalam', cursive;
+}
+
+.main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.container {
+    width: 80%;
+    height: 50%;
+    border: 2px solid black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin-bottom: 50px;
+    padding: 30px;
+}
+
+.addButton {
+    width: 150px;
+    height: 30px;
+    color: white;
+    background-color: rgba(0, 0, 0, 0.441);
+    border: 1px solid white;
+    border-radius: 30px;
+    transition: .5s ease-in-out;
+    position: absolute;
+    top: 15%;
+}
+
+.addButton:hover {
+    color: black;
+    background-color: white;
+    cursor: pointer;
+}
+
+
+.card {
+    width: 80%;
+    border: 1px solid black;
+    position: relative;
+    margin-bottom: 40px;
+    display: flex;
+}
+
+.thumbnail {
+    border-radius: 8px;
+    width: 168px;
+}
+
+.title {
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.duration {
+    position: absolute;
+    left: -8%;
+    bottom: 20%;
+    background-color: black;
+    font-size: 10px;
+    padding: 4px;
+    border-radius: 4px;
+}
